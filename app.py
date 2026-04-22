@@ -32,7 +32,7 @@ df_canada = df[df['Region'] == 'Canada'].pivot_table(
 fig = px.line(df_canada,
               title = 'Energy Futures - Canada',
               labels = {'Value': 'Energy Demand',
-                        Year': 'Year'},
+                        'Year': 'Year'},
               markers = True)
 
 
